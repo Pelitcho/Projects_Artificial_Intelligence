@@ -6,5 +6,5 @@
 **Data Science practice project**:  
 ✔ **Data Wrangling**: Handled missing values and categorical encoding  
 ✔ **Feature Engineering**: Created meaningful features (Date Transformation, Ratio Creation, Categorization)  
-✔ **Model Optimization**: Achieved **95.7% accuracy** with Gradient Boosting 
+✔ **Model Optimization**: Achieved **95.7% accuracy** with Gradient Boosting  
 ✔ **Explainability**: Analyzed feature importance
