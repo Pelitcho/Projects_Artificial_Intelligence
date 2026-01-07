@@ -2,9 +2,9 @@
 
 
 
-## 📊 Project Overview
+##  Project Overview
 
-A complete machine learning project focused on predicting future revenue from sales transaction data. This project demonstrates a full CRISP-DM workflow, from data preprocessing to model interpretation.
+A complete machine learning project focused on predicting future revenue from sales transaction data. 
 
 
 
@@ -12,7 +12,7 @@ A complete machine learning project focused on predicting future revenue from sa
 
 
 
-## 🏗️ Technical Process
+##  Technical Process
 
 
 
@@ -54,7 +54,7 @@ Systematically implemented and evaluated 5 regression algorithms:
 
 
 
-## 📈 Key Findings & Insights
+##  Key Findings & Insights
 
 - **Best Model**: Optimized GradientBoostingRegressor with R² = 0.957
 
@@ -64,7 +64,7 @@ Systematically implemented and evaluated 5 regression algorithms:
 
 
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Languages**: Python
 
