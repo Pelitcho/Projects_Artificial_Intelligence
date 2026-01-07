@@ -1,44 +1,80 @@
-# \# 🚀 Projet de Prédiction des Revenus - Machine Learning End-to-End
+\# Sales Forecasting | End-to-End Machine Learning Pipeline
 
-# 
 
-# \## Objectif
 
-# Construire un pipeline complet de Machine Learning pour prédire les revenus futurs à partir de données de transactions historiques.
+\## 📊 Project Overview
 
-# 
+A complete machine learning project focused on predicting future revenue from sales transaction data. This project demonstrates a full CRISP-DM workflow, from data preprocessing to model interpretation.
 
-# \## Processus \& Méthodologie
 
-# 1\.  \*\*Data Preparation\*\* : Nettoyage et feature engineering.
 
-# 2\.  \*\*Modelling\*\* : Benchmark de 5 algorithmes avec validation croisée.
+\*\*Key Result\*\*: Gradient Boosting model achieving \*\*R² = 0.957\*\* (explaining 95.7% of revenue variance).
 
-# 3\.  \*\*Optimisation\*\* : Fine-tuning avec GridSearchCV.
 
-# 4\.  \*\*Évaluation\*\* : Analyse basée sur le R², MSE, MAE et l'importance des features.
 
-# 
+\## 🏗️ Technical Process
 
-# \## Résultat Principal
 
-# \*\*Modèle optimal\*\* : GradientBoostingRegressor atteignant un score R² de \*\*0.957\*\* après optimisation, démontrant une capacité prédictive très forte.
 
-# 
+\### 1. Data Preparation \& Feature Engineering
 
-# \## Compétences démontrées
+\- \*\*Data Cleaning\*\*: Handled missing values and standardized data formats
 
-# \- Maîtrise du cycle complet d'un projet Data Science (CRISP-DM)
+\- \*\*Feature Creation\*\*: Engineered temporal features (Year, Month) and business metrics (Revenue = Price × Quantity)
 
-# \- Feature Engineering \& Préprocessing des données
+\- \*\*Categorical Encoding\*\*: Applied and compared Label Encoding vs. One-Hot Encoding techniques
 
-# \- Benchmark et optimisation de modèles de ML
 
-# \- Analyse critique des résultats et interprétation
 
-# 
+\### 2. Model Development \& Benchmarking
 
-# \## Technologies utilisées
+Systematically implemented and evaluated 5 regression algorithms:
 
-# Python, Pandas, Scikit-learn, Matplotlib, Seaborn.
+\- Linear Regression (Baseline)
+
+\- Decision Tree Regressor
+
+\- Random Forest Regressor
+
+\- \*\*Gradient Boosting Regressor\*\* (Best performer)
+
+\- AdaBoost Regressor
+
+
+
+\### 3. Model Optimization \& Evaluation
+
+\- \*\*Hyperparameter Tuning\*\*: GridSearchCV for optimal Gradient Boosting parameters
+
+\- \*\*Cross-Validation\*\*: 5-fold CV ensuring robust performance estimation
+
+\- \*\*Multi-Metric Evaluation\*\*: R², Mean Squared Error (MSE), Mean Absolute Error (MAE)
+
+\- \*\*Feature Importance Analysis\*\*: Identified key drivers of revenue predictions
+
+
+
+\## 📈 Key Findings \& Insights
+
+\- \*\*Best Model\*\*: Optimized GradientBoostingRegressor with R² = 0.957
+
+\- \*\*Critical Features\*\*: Price and quantity were strongest predictors, with additional value from temporal patterns
+
+\- \*\*Algorithm Insight\*\*: Ensemble methods (Random Forest, Gradient Boosting) significantly outperformed simpler linear models on this non-linear sales data
+
+
+
+\## 🛠️ Tech Stack
+
+\- \*\*Languages\*\*: Python
+
+\- \*\*Libraries\*\*: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+
+\- \*\*Tools\*\*: Jupyter Notebook, Git
+
+\- \*\*Methodology\*\*: CRISP-DM
+
+
+
+\## 📁 Repository Structure
 
