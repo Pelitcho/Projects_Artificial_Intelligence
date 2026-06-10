@@ -38,8 +38,6 @@ Systematically implemented and evaluated 5 regression algorithms:
 
 - **Gradient Boosting Regressor** (Best performer)
 
-- AdaBoost Regressor
-
 
 
 ### 3. Model Optimization & Evaluation
